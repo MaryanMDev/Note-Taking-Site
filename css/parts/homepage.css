@@ -1,0 +1,12 @@
+.introduction{
+    position: absolute;
+    left: 40%;
+    bottom: 50%;
+    text-align: center;
+}
+
+.link-text{
+    margin-top: 5%;
+    background: white;
+    padding: 17px;
+}

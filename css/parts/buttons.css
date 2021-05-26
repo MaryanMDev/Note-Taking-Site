@@ -1,0 +1,62 @@
+/* ACTIONS */
+
+.warning{
+    color:#ff3f34;
+    background: #ff3f3410;
+    border:1px solid #ff3f34;
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 36px;
+    margin-bottom: 10px;
+}
+
+.success{
+    color:#05c46b;
+    background: #0be88110;
+    border:1px solid #05c46b;
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 36px;
+    margin-bottom: 10px;
+}
+
+
+/* BUTTONS */
+
+
+.delete{
+    background: #ff3f34;
+    border: #C2361A 1px solid;
+}
+
+.update{
+    background:#05c46b;
+    border: #44bd32 1px solid;
+}
+
+.delete:hover{
+background: #e84118;
+}
+
+.update:hover{
+    background:#4cd137;
+}
+
+.delete, .update{
+    padding:5px 18px;
+    border-radius:30px;
+    color:white;
+    transition: background 0.1s ease-in;
+}
+
+input[type='submit']{
+    color: white;
+    border-radius: 100px;
+    background: #2f3640;
+    border: none;
+    transition: background 0.1s ease-in;;
+}
+
+input[type='submit']:hover{
+    background:#7f8fa6;
+}

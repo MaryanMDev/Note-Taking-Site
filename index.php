@@ -1,8 +1,8 @@
+<?php include('partials/header.php'); ?>
+
 <div class="page-container">
 
     <?php
-
-    include('partials/header.php');
 
     if (isset($_SESSION['delete'])) {
         echo $_SESSION['delete'];

@@ -1,8 +1,8 @@
+<?php include('partials/header.php'); ?>
+
 <div class="page-container">
 
     <?php
-
-    include('partials/header.php');
 
     if(isset($_SESSION['empty'])){
         echo $_SESSION['empty'];

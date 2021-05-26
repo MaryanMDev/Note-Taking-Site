@@ -1,0 +1,24 @@
+.list-card{
+    width:49%;
+    border-radius:10px;
+}
+
+.content{
+    background: #d2dae290;
+    border: 0.5px solid white;
+    padding: 20px 20px;
+    margin: 14px 0;
+    border-radius: 8px;
+}
+
+.content h2{
+    margin-bottom:2%;
+}
+
+.content p{
+    line-height: 22px;
+}
+
+.content h2 , .content p{
+    color: #1e272e;
+}

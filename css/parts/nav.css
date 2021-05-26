@@ -1,0 +1,26 @@
+.nav{
+    text-transform: uppercase;
+    background: #2f3640;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    width: 81.6%;
+    margin: auto;
+}
+
+.nav-list li a {
+    font-weight: 600;
+    color:#f5f6fa ;
+    margin-right:20px ;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+

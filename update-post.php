@@ -1,8 +1,8 @@
+<?php include('partials/header.php'); ?>
+
 <div class="page-container">
 
     <?php
-
-    include('partials/header.php');
 
     $id = $_GET['id'];
 

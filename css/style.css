@@ -1,3 +1,9 @@
+@import url('parts/homepage.css');
+@import url('parts/buttons.css');
+@import url('parts/nav.css');
+@import url('parts/form.css');
+@import url('parts/card.css');
+
 *{
     margin:0;
     padding:0;
@@ -20,124 +26,6 @@ h2{
 .container{
     display: flex;
     flex-wrap: wrap;
-}
-
-.list-card{
-    background:#1e272e;
-    width:40%;
-    padding:20px;
-    border-radius:10px;
-    margin:10px;
-}
-
-.nav{
-    width: 10%;
-    margin:2% 0;
-    text-transform: uppercase;
-}
-
-.nav-list{
-    display: flex;
-    list-style-type: none;
     justify-content: space-between;
 }
 
-.nav-list li a {
-    font-weight: 600;
-}
-
-form{
-    display:flex;
-    flex-direction: column;
-    width:20%;
-}
-
-form > * {
-    margin-bottom:20px;
-}
-
-input[type = 'submit']
-{
-    padding: 7px 25px;
-    width:fit-content;
-}
-
-input[type = 'text']{
-    height:30px !important;
-}
-
-.content-box{
-    height: 100px;
-}
-
-.delete{
-    background: #ff3f34;
-}
-
-.update{
-    background:#05c46b;
-}
-
-.delete, .update{
-    padding:5px 18px;
-    border-radius:30px;
-    color:white;
-}
-
-a{
-    text-decoration: none;
-    display: inline-block;
-}
-
-.content{
-    background: #d2dae290;
-    border: 0.5px solid white;
-    padding: 20px 20px  80px;
-    margin: 14px 0;
-    border-radius: 8px;
-}
-
-.content h2{
-    margin-bottom:2%;
-}
-
-.content p{
-    line-height: 22px;
-}
-
-.content h2 , .content p{
-    color: white;
-}
-
-.introduction{
-    position: absolute;
-    left: 40%;
-    bottom: 50%;
-    text-align: center;
-}
-
-.link-text{
-    margin-top: 5%;
-    background: white;
-    padding: 17px;
-}
-
-.warning{
-    color:#ff3f34;
-    background: #ff3f3410;
-    border:1px solid #ff3f34;
-    display: inline-block;
-    padding: 7px 10px;
-    border-radius: 36px;
-    margin-bottom: 10px;
-}
-
-.success{
-    color:#05c46b;
-    background: #0be88110;
-    border:1px solid #05c46b;
-    display: inline-block;
-    padding: 7px 10px;
-    border-radius: 36px;
-    margin-bottom: 10px;
-}

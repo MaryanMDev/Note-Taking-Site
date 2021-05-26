@@ -1,6 +1,6 @@
-<?php
+<?php include('partials/header.php'); ?>
 
-include('partials/header.php');
+<?php
 
 $id = $_GET['id'];
 

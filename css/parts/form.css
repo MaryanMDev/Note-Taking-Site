@@ -1,0 +1,23 @@
+form{
+    display:flex;
+    flex-direction: column;
+    width:20%;
+}
+
+form > * {
+    margin-bottom:20px;
+}
+
+input[type = 'submit']
+{
+    padding: 7px 25px;
+    width:fit-content;
+}
+
+input[type = 'text']{
+    height:30px !important;
+}
+
+.content-box{
+    height: 100px;
+}
